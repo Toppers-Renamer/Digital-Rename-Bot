@@ -34,16 +34,16 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "22182189")
+    API_HASH = os.environ.get("API_HASH", "5e7c4088f8e23d0ab61e29ae11960bf5")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQFSeS0AF4illelDTU-LW7j_85znsbIick5zt5ASUviMho_P4b56Kpitor7WGLHWUMGET-BnLWrzWdNMgJKoqiL3GD62T0VBfBHcmz3BNaBXFQGLizz2ZgpfbRUB75vQB9lc-LZVKNEytgU6s7BwicPVJgcLJMwO_uXqswg7CVLXFHxajy20eSiJ9Pdg1JAZd9W5nRhhuavR8sAWppZWnXaiQKqROdNLyjpE7FWpta9rTAd0DUV6ad2ZyK-hqEtU9rc5-c2AvrgQawiBO_2tCLCNa68I0RYKtYjTR1Oi8uAa70TsNQaoHwF1hPfeX3PG-0v9Kv8FvzEes7uocZhzHui-iTWl7gAAAAHTfySqAA")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://sujoy123m:wTWKGUaxYE7dxb1l@cluster0.zorxb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
